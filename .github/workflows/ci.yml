@@ -1,0 +1,15 @@
+name: CI - Not Yet Configured
+
+on:
+  workflow_dispatch:
+
+jobs:
+  not-configured:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: CI configuration required
+        run: |
+          echo "::error::Project CI has not yet been configured."
+          echo "Replace this starter workflow with project-specific build and test checks before using CI as engineering evidence."
+          exit 1

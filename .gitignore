@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+
+# Local environment files
+.env
+
+# macOS metadata
+.DS_Store
+._*
+
+# Generated build artifacts
+build/
+dist/
+
+# COMP 330 instructor/local review output
+# Generated review evidence is local and must not be committed
+comp330-reviews/
