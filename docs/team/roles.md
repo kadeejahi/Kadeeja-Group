@@ -20,7 +20,7 @@ Replace the sample student entries below with the members of your team. Leave th
 |---|---|---|---|
 | Jordan Smith | jsmith-luc | Jordan Smith; J. Smith | Student |
 | Taylor Nguyen | tnguyen22 | Taylor Nguyen | Student |
-| Morgan Lee | mlee-luc | Morgan Lee | Student |
+| Sam Stewart | SamTheSoftwareEngineer | Sam Stewart | Student |
 | Casey Patel | cpatel-luc | Casey Patel | Student |
 | Riley Chen | rchen-luc | Riley Chen | Student |
 | William O'Connell | woconnell1 |  | Instructor / Observer |
