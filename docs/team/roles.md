@@ -22,7 +22,7 @@ Replace the sample student entries below with the members of your team. Leave th
 | Taylor Nguyen | tnguyen22 | Taylor Nguyen | Student |
 | Sam Stewart | SamTheSoftwareEngineer | Sam Stewart | Student |
 | Casey Patel | cpatel-luc | Casey Patel | Student |
-| Riley Chen | rchen-luc | Riley Chen | Student |
+| Camille Hart | chart9 | Camille Hart | Student |
 | William O'Connell | woconnell1 |  | Instructor / Observer |
 
 ### Instructions
