@@ -42,12 +42,12 @@ Every student has the base role **Developer**. In addition, the team must assign
 
 | Specialized Role | Primary Owner(s) | Backup Owner | Effective Gates | Notes |
 |---|---|---|---|---|
-| Team Lead | Jordan Smith | Taylor Nguyen | A1-A6 | |
-| Planning & Process Lead | Taylor Nguyen | Camille Hart | A1-A6 | |
-| Architecture & Development Lead | Morgan Lee | Casey Patel | A1-A6 | |
+| Team Lead | Kadeeja | Dathal | A1-A6 | |
+| Planning & Process Lead | Dean | Camille Hart | A1-A6 | |
+| Architecture & Development Lead | Dathal | Kadeeja | A1-A6 | |
 | Quality & Review Lead | Camille Hart | Sam Stewart | A1-A6 | |
-| Operations & Evidence Lead | Edgar Sanchez | Jordan Smith | A1-A6 | |
-| Recorder | Sam Stewart| Jordan Smith | A1-A6 | |
+| Operations & Evidence Lead | Edgar Sanchez | Dean | A1-A6 | |
+| Recorder | Sam Stewart | Edgar | A1-A6 | |
 
 
 ### Instructions
@@ -66,15 +66,15 @@ The following ownership assignments apply to the Project Launch (A1) deliverable
 
 | Deliverable | Primary Owner | Backup Owner | Evidence Location |
 |---|---|---|---|
-| Repository README | Jordan Smith | Taylor Nguyen | `/README.md` |
-| Team Charter | Taylor Nguyen | Jordan Smith | `/docs/team/team-charter.md` |
-| Role Matrix | Jordan Smith | Casey Patel | `/docs/team/roles.md` |
-| Working Agreements | Taylor Nguyen | Riley Chen | `/docs/team/working-agreements.md` |
-| AI-Use Policy | Riley Chen | Casey Patel | `/docs/ai/ai-policy.md` |
-| AI-Use Log | Riley Chen | Casey Patel | `/docs/ai/ai-use-log.md` |
-| Initial Requirements | Morgan Lee | Taylor Nguyen | `/docs/requirements/` |
-| Planning and Risk | Taylor Nguyen | Jordan Smith | `/docs/planning/` |
-| Initial Decision Record | Morgan Lee | Casey Patel | `/docs/decisions/` |
+| Repository README | Sam Stewart | Dathal | `/README.md` |
+| Team Charter | Kadeeja | dathal | `/docs/team/team-charter.md` |
+| Role Matrix | Kadeeja  | dathal | `/docs/team/roles.md` |
+| Working Agreements | Sam Stewart | Edgar | `/docs/team/working-agreements.md` |
+| AI-Use Policy | Edgar | Dean | `/docs/ai/ai-policy.md` |
+| AI-Use Log | Edgar | Dean | `/docs/ai/ai-use-log.md` |
+| Initial Requirements | Dean | Camille | `/docs/requirements/` |
+| Planning and Risk | Dean | Camille | `/docs/planning/` |
+| Initial Decision Record | Dathal | Kadeeja | `/docs/decisions/` |
 
 ### Instructions
 
@@ -113,11 +113,13 @@ The **Evidence** column should reference a repository-visible confirmation made 
 
 | Student Name | Acknowledged | Evidence |
 |---|---|---|
-| Jordan Smith | Yes | Issue #2 comment |
-| Taylor Nguyen | Yes | PR #3 review |
-| Morgan Lee | Pending |  |
-| Casey Patel | Pending |  |
-| Riley Chen | Pending |  |
+| Sam Stewart | Yes |  |
+| Camille Hart | Yes |  |
+| Dathal Guzman | Yes |  |
+| Kadeeja Labaran | Yes|  |
+| Dean Ahmeti  | Yes|  |
+| Edgar Sanchez  | Yes |  |
+
 
 ### Instructions
 
