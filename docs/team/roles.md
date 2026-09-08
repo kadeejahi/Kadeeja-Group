@@ -1,4 +1,4 @@
-# Team Roles, Identities, and Evidence Ownership
+ # Team Roles, Identities, and Evidence Ownership
 
 Every student is a **Developer** and also holds at least one specialized engineering role. Each specialized role must have a primary owner and a different backup owner.
 
@@ -19,7 +19,7 @@ Replace the sample student entries below with the members of your team. Leave th
 | Student Name | GitHub Login | Git Author Alias(es) | Member Type |
 |---|---|---|---|
 | Jordan Smith | jsmith-luc | Jordan Smith; J. Smith | Student |
-| Dean Ahmeti | dahmeti | Dean Ahmeti | Student |
+| Dean Ahmeti | deanahmeti | Dean Ahmeti | Student |
 | Sam Stewart | SamTheSoftwareEngineer | SamTheSoftwareEngineer | Student |
 | Edgar Sanchez | edgarsanchezLUC | Edgar Sanchez | Student |
 | Camille Hart | chart9 | Camille Hart | Student |
