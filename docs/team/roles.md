@@ -20,7 +20,7 @@ Replace the sample student entries below with the members of your team. Leave th
 |---|---|---|---|
 | Jordan Smith | jsmith-luc | Jordan Smith; J. Smith | Student |
 | Taylor Nguyen | tnguyen22 | Taylor Nguyen | Student |
-| Sam Stewart | SamTheSoftwareEngineer | Sam Stewart | Student |
+| Sam Stewart | SamTheSoftwareEngineer | SamTheSoftwareEngineer | Student |
 | Casey Patel | cpatel-luc | Casey Patel | Student |
 | Camille Hart | chart9 | Camille Hart | Student |
 | William O'Connell | woconnell1 |  | Instructor / Observer |
