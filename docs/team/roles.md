@@ -46,7 +46,7 @@ Every student has the base role **Developer**. In addition, the team must assign
 | Planning & Process Lead | Taylor Nguyen | Jordan Smith | A1-A6 | |
 | Architecture & Development Lead | Morgan Lee | Casey Patel | A1-A6 | |
 | Quality & Review Lead | Casey Patel | Morgan Lee | A1-A6 | |
-| Operations & Evidence Lead | Riley Chen | Jordan Smith | A1-A6 | |
+| Operations & Evidence Lead | Edgar Sanchez | Jordan Smith | A1-A6 | |
 
 ### Instructions
 
