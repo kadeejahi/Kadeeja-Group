@@ -113,7 +113,7 @@ The **Evidence** column should reference a repository-visible confirmation made 
 
 | Student Name | Acknowledged | Evidence |
 |---|---|---|
-| Sam Stewart | Yes |  |
+| Sam Stewart | Yes | PR #1 |
 | Camille Hart | Yes |  |
 | Dathal Guzman | Yes |  |
 | Kadeeja Labaran | Yes|  |
