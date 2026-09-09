@@ -26,16 +26,73 @@ The README is the **entry point to your engineering record**. It should help ano
 
 ---
 
-# Project Name
+# CampusConnect
 
-**Replace this heading and section with your approved project name and a concise description of the system.**
+**Project Brief**
 
-Describe, in a few sentences:
+CampusConnect is a student support request and workflow management system designed to provide a structured and transparent process for handling student support needs. In lieu of numerous emails, shared documents, or verbal follow-ups - the system presents a centralized workflow that allows requests to be submitted. reviewed, updated, tracked, and resolved.
 
-- the problem the system addresses;
-- its intended users or stakeholders;
-- its primary purpose; and
-- the major scope of the system.
+**Problem Statement**
+
+Often times, student support requests are often handled through informal and disconnected communication channels. Students may submit requests via email, verbally, or rely on shared documents in order to track their needs. As mentioned in the project brief, these methods can make it difficult to determine whether a request was received, who is responsible for addressing it, what actions have been taken, and whether the issue has been resolved.
+
+**Intended Users and Stakeholders**
+
+CampusConnect's primary users are students as they can utilize the system in order to assist with their requests. They can use CampusConnect to:
+
+- Submit support requests.
+- Provide relevant information about their needs.
+- View the status of submitted requests.
+- Review updates and resolution information.
+- Track their requests without relying on repeated email or verbal follow-up.
+
+Secondary users include support reviewers whom are responsible for evaluating and managing submitted requests. They can use the system to:
+
+- View incoming student requests.
+- Review request details.
+- Update request status.
+- Add notes or relevant information.
+- Track requests through the resolution process.
+- Document how requests were handled.
+
+**Purpose**
+The primary purpose of CampusConnect is to **centralize and standardize the student support request communication cycle**. The system is intended to improve transparency, accountability, consistency, and communication without adding any unnecessary complexity to the process.
+
+**Scope**
+
+1. Student Request Submission
+
+Students can create and submit support requests containing relevant information about their needs. Each request becomes a trackable record within the system.
+
+2. Request Management
+
+Support reviewers can access submitted requests and manage them through the support workflow. Reviewers can examine request details, make updates, and record relevant actions.
+
+3. Request Status Tracking
+
+Requests progress through defined workflow states, allowing students and reviewers to understand where a request currently stands. Example statuses may include:
+
+- Submitted
+- Under Review
+- In Progress
+- Resolved
+- Closed
+
+4. Communication and Updates
+
+The system provides a centralized location for recording updates associated with a request. This reduces the need for students and reviewers to rely on separate email conversations or verbal communication to determine what has occurred.
+
+5. Resolution Tracking
+
+Support reviewers can document the outcome of a request, providing a clear record of how the request was addressed and when it was resolved.
+
+6. Role-Based Access
+
+The system distinguishes between student and support-reviewer responsibilities. Students should have access to their own requests, while reviewers should have appropriate access to requests they are responsible for managing.
+
+7. Request History and Visibility
+
+The system maintains an inspectable record of requests and their workflow progression. This provides greater accountability and makes it easier to understand the history of a support request.
 
 ---
 
