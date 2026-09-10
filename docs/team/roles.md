@@ -23,6 +23,7 @@ Replace the sample student entries below with the members of your team. Leave th
 | Sam Stewart | SamTheSoftwareEngineer | SamTheSoftwareEngineer | Student |
 | Edgar Sanchez | edgarsanchezLUC | Edgar Sanchez | Student |
 | Camille Hart | chart9 | Camille Hart | Student |
+| Kadeeja Labaran | kadeejahi | Kadeeja Labaran | Student |
 | William O'Connell | woconnell1 |  | Instructor / Observer |
 
 ### Instructions
