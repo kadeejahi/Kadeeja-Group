@@ -1,8 +1,8 @@
 # Team Charter
 
 ## Purpose
-
-Document engineering evidence for this area.
+Decided on developing a campus core app. //09/07/26
+(Document engineering evidence for this area.)
 
 ## Expectations
 
