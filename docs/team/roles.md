@@ -119,7 +119,7 @@ The **Evidence** column should reference a repository-visible confirmation made 
 | Dathal Guzman | Yes |  |
 | Kadeeja Labaran | Yes|  |
 | Dean Ahmeti  | Yes|  |
-| Edgar Sanchez  | Yes | Pending |
+| Edgar Sanchez  | Yes | PR #3 |
 
 
 ### Instructions
