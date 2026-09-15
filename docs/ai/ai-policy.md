@@ -18,3 +18,4 @@ AI should be used as a tool meant to help boost our understanding and generate c
 **3. Ai Restrictions**
 - Ai will not be used to create full policy files
 - Ai suggestions should not be copy-pasted, especially if it's code related.
+- Ai should only be used to recommend changes, not make decisions in making those changes.
