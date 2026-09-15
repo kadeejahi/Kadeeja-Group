@@ -1,6 +1,7 @@
 # Team Charter: CampusConnect Python Project
 
 * **Project Name:** CampusConnect (Python Web/Desktop Application)
+* **Team Name:** TheCrazy6
 * **Version:** 1.0
 * **Date:** September 2026
 * **Repository:** `blank for now`
@@ -8,7 +9,7 @@
 --- **Purpose** 
 
 ## 1. Mission Statement
-Our team will build **CampusConnect**, a reliable, user-friendly Python application that helps university students find campus events, manage study groups, and connect with peers safely. We aim to deliver a fully functional, well-tested MVP (Minimum Viable Product) by the course deadline while mastering collaborative git workflows and agile development practices.
+CampusConnect is a student support request and workflow management system designed to provide a structured and transparent process for handling student support needs. In lieu of numerous emails, shared documents, or verbal follow-ups - the system presents a centralized workflow that allows requests to be submitted. reviewed, updated, tracked, and resolved.
 
 --- **Expectations** 
 
