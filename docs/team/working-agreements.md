@@ -24,6 +24,7 @@ Team working agreements will define how the team will collaborate throughout the
 
 - Work will be divided into clearly defined tasks and goals with an identified primary and secondary owner.
 - Team members are responsible for communicating their progress and informing the team of any blockers.
+- Primary and Secondary team members should be the only ones working on an assigned task, unless assistance from everyone is neccesary.
 - Team members will ask for assistance when a task is taking significantly longer than planned.
 - Team members will help one another when someone is blocked rather than treating each task as completely isolated responsiblities.
 - Team members should not substantially change the scope of an assigned task without communicating with the team.
@@ -37,7 +38,7 @@ Team working agreements will define how the team will collaborate throughout the
 
 5. Code Quality and Output
 
-- The team will follow the project's established coding conventions adn architecture.
+- The team will follow the project's established coding conventions and architecture.
 - New functionality should include testing when practical before being merged into the main branch.
 - Technical decisions that significantly affect the project should be communicated to the team and documented when appropriate.
 - The team will prioritize maintainable and understandable code rather than introducing complexity and unnecessarily complicated solutions.
