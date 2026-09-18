@@ -23,13 +23,13 @@ CampusConnect is a student support request and workflow management system design
 ## 3. Team Roles & Primary Owners
 * **Team Lead / Backup Lead:** *[Kadeeja, Dathal]*  
   Tracks milestones, manages the project board (Trello/GitHub Projects), and keeps meetings on schedule.
-* **Lead Software Architect:** *[Dathal, Kadeeja]*  
+* **Lead Software Architect / Backup:** *[Dathal, Kadeeja]*  
   Oversees Python/Database integration (e.g., SQLite, PostgreSQL, Flask/FastAPI, or Tkinter/PyQt backend logic).
 * **Lead Planning & Process / Backup:** *[Dean, Camille]*  
   Designs the layout, user flows, and implements the frontend components in Python.
 * **Quality & Review Lead / Backup:** *[Camille, Sam]*  
   Manages the GitHub repository, sets up automated testing (pytest), and oversees deployment/distribution pipelines.
-* **Lead Operations & Evidence / Backup:** *[Camille, Sam]*  
+* **Lead Operations & Evidence / Backup:** *[Edgar, Sam]*  
   Manages the GitHub repository, sets up automated testing (pytest), and oversees deployment/distribution pipelines.
 * **Recorder / Backup:** *[Sam, Edgar]*  
   Manages the GitHub repository, sets up automated testing (pytest), and oversees deployment/distribution pipelines.
