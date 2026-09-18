@@ -13,17 +13,17 @@
 ## Request Status Tracking
 - Each request has a current status.
 - Reviewers can change the status.
-- Student can view the current statrus of their own requests.
+- Student can view the current status of their own requests.
 
-## Communication and Updstes
+## Communication and Updates
 - Reviewers can add updates to a request.
 - Updates are visible in the request history.
 
 ## Resolution Tracking 
 - Reviewers can mark a request as resolved.
-- The resoluition outcome is recorded.
+- The resolution outcome is recorded.
 
-$$ Role-Based Access 
+## Role-Based Access 
 - Students can only access their own requests.
 - Reviewers can access requests they are responsible for managing.
 
