@@ -116,7 +116,7 @@ The **Evidence** column should reference a repository-visible confirmation made 
 |---|---|---|
 | Sam Stewart | Yes | PR #1 |
 | Camille Hart | Yes |  |
-| Dathal Guzman | Yes |  |
+| Dathal Guzman | Yes |PR #4|
 | Kadeeja Labaran | Yes|  |
 | Dean Ahmeti  | Yes|  |
 | Edgar Sanchez  | Yes | PR #3 |
