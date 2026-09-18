@@ -28,7 +28,7 @@
 - [ ] Limit students to their own requests
 
 ## Testing
-- [ ] Test request sunmission
+- [ ] Test request submission
 - [ ] Test status changes
 - [ ] Test reviewer access
 - [ ] Test invalid input
