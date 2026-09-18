@@ -2,7 +2,7 @@
 # CampusConnect - Project Scope
 
 
-## Overview: The System wil allow students to submit support requests and allow support reviewrs to manage, track, and resolve those request
+## Overview: The System will allow students to submit support requests and allow support reviewrs to manage, track, and resolve those request.
 
 ## In Scope
 
