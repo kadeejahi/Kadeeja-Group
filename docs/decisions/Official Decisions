@@ -15,7 +15,7 @@ The team wanted to reduce the risk of whats unreviewed.
 ## Decision
 
 The team decided that every pull request must be reviewed and approved
-by at least one team member (preferrably 2) before it can be merged.
+by at least one team member before it can be merged.
 
 ## Alternatives Considered
 
