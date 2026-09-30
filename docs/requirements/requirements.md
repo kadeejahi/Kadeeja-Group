@@ -106,3 +106,86 @@ Students and reviewers have different access permissions.
 * Reviewers can access reviewer-authorized functionality.
 * Users cannot perform actions outside their assigned permissions.
 
+# Assumptions
+
+The following assumptions are being made to guide the initial design and development of the system:
+
+1. **Users have defined roles.**
+   The system will support at least two user roles: **students** and **reviewers**. Each role will have different permissions.
+
+2. **Students can only access their own requests.**
+   Students will be able to create, submit, view, and track their own support requests but will not be able to view requests submitted by other students.
+
+3. **Reviewers can access submitted requests.**
+   Reviewers will have permission to view and manage support requests submitted by students.
+
+4. **Requests have a defined lifecycle.**
+   A support request will progress through statuses such as submitted, under review, in progress, resolved, or closed.
+
+5. **Request history must be preserved.**
+   Changes to request information and status will be recorded rather than overwriting the complete history of the request.
+
+6. **Updates are associated with specific requests.**
+   Reviewers can add notes or updates to a request, and those updates will remain associated with the request for future reference.
+
+7. **The system will track resolution information.**
+   When a request is resolved, the system will store information describing how the issue was addressed.
+
+8. **Authentication is required.**
+   Users will need to authenticate before accessing functionality that requires a specific role or account.
+
+9. **Authorization will be enforced by the application.**
+   The system will prevent users from accessing functionality or information outside of their assigned permissions.
+
+10. **The initial system is focused on core support-request functionality.**
+    Features such as notifications, file attachments, analytics, integrations, and automated routing are considered outside the initial scope unless later requirements identify them as necessary.
+
+11. **A request contains enough information for a reviewer to understand the issue.**
+    At minimum, a request will include information such as the submitting student, a description of the issue, its status, and relevant timestamps.
+
+12. **The system will maintain an auditable history.**
+    Important actions, including status changes and request updates, will include information about when the action occurred and which user performed it.
+
+# Open Questions
+
+The following questions should be answered before or during implementation because they could affect the system's architecture, database design, or user experience.
+
+### User Accounts and Roles
+
+1. What information is required when creating a student or reviewer account?
+2. Who creates reviewer accounts?
+3. Can a user have more than one role?
+4. How will users authenticate—email/password, university credentials, or another authentication provider?
+5. Should users be able to reset forgotten passwords?
+
+### Support Requests
+
+6. What fields are required when a student submits a support request?
+7. Should students select a category for their request?
+8. Should requests have a priority level?
+9. Can students edit a request after submitting it?
+10. Can students withdraw or delete a request?
+11. Can reviewers reassign a request to another reviewer?
+
+### Status and Workflow
+
+12. What statuses should a request support?
+13. Who is allowed to change a request's status?
+14. Should certain status changes require additional information?
+15. Can a resolved or closed request be reopened?
+16. What is the difference between **resolved** and **closed**, if both statuses are needed?
+
+### Updates and History
+
+17. What information should be stored for each request update?
+18. Can students respond to reviewer updates, or are updates reviewer-only?
+19. Should users be able to edit or delete previously submitted updates?
+20. Which actions must be recorded in the request history?
+21. How long should request history be retained?
+
+### Resolution
+
+22. What information must a reviewer provide when resolving a request?
+23. Should the system require a resolution description before allowing a request to be marked resolved?
+24. Can a reviewer mark a request as resolved without the student's confirmation?
+
