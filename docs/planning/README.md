@@ -1,10 +1,11 @@
-# COMP 330/474 — Software Engineering
-
-Student Support Request and Workflow Management System
+**Student Support Request and Workflow Management System**
 
 **Course:** COMP 330 — Software Engineering
+
 **Cycle:** Cycle 1
+
 **Current Phase:** Planning and Estimation
+
 **Team:** TheCrazy6
 ---
 
