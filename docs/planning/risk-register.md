@@ -1,7 +1,19 @@
 # Risk Register
 
-| Risk | Likelihood |  Impact | Mitigation | Owner | Status |
-| --- | --- | --- | --- | --- | --- | 
-| Features take longer than expected | Medium | High | Prioritize core MVP features and adjust tasks when needed |
-| Bugs during integration | High | High | Test features before merging into main | 
- 
+| ID | Risk | Trigger | Probability |  Impact | Mitigation | Owner | Status |
+| --- | --- | --- | --- | --- | --- | -- | -- |
+| R-01 | Features take longer to implement than estimated | A task approaches or exceeds its high estimate without being completed | Medium | High | Re-estimate the affected work, review priorities, and adjust the schedule or scope if necessary | TBD | Open |
+| R-02 | Project scope becomes larger than the team can realistically complete | New features or requirements continue to be added beyond the agreed project scope | Medium | High | Review proposed changes against the project scope and defer lower-priority features when necessary | TBD | Open |
+| R-03 | Requirements are unclear or change during development | Team members cannot determine expected behavior or new requirements conflict with existing plans | Medium | High | Review and clarify requirements as a team, update acceptance criteria, and document significant changes | TBD | Open |
+| R-04 | Integration problems occur when combining team members' work | Features work individually but fail or conflict after being integrated | Medium | High | Integrate work regularly, use pull requests, and establish integration checkpoints instead of waiting until the end | TBD | Open |
+| R-05 | Git merge conflicts interfere with development | Multiple team members modify the same files or components at the same time | Medium | Medium | Use feature branches, pull frequently, communicate about shared files, and resolve conflicts through reviewed pull requests | TBD | Open |
+| R-06 | A team member becomes unavailable or falls behind | Assigned work misses planned checkpoints or a team member cannot complete assigned work | Medium | High | Assign backup owners, communicate problems early, and redistribute work when necessary | TBD | Open |
+| R-07 | Dependencies prevent tasks from starting or finishing on time | A task cannot continue because another required task or component is incomplete | Medium | Medium | Identify dependencies during planning, prioritize blocking work, and track dependencies in GitHub Issues and the task plan | TBD | Open |
+| R-08 | Bugs or unexpected technical problems delay development | Features fail testing or implementation reveals unexpected technical complexity | High | High | Test throughout development, reserve time for debugging, and re-estimate affected tasks when necessary | TBD | Open |
+| R-09 | Team members have difficulty implementing unfamiliar technology or functionality | Development takes significantly longer because additional research or learning is required | Medium | Medium | Identify unfamiliar areas early, research before implementation, collaborate as a team, and adjust estimates when needed | TBD | Open |
+| R-10 | Project documentation becomes outdated | Requirements, planning documents, or GitHub Issues no longer reflect the project's actual implementation or status | Medium | Medium | Review documentation at regular checkpoints and update affected artifacts whenever important project decisions or changes occur | TBD | Open |
+| R-11 | Testing is incomplete or delayed | Features are considered complete without sufficient testing or verification evidence | Medium | High | Include testing in task planning and estimates and require verification before work is considered complete | TBD | Open |
+| R-12 | Pull requests or code reviews delay progress | Completed work remains unmerged because reviews are delayed or unresolved changes remain | Medium | Medium | Assign reviewers, keep pull requests manageable, and account for review time in the project schedule | TBD | Open |
+| R-13 | Team communication problems lead to duplicated or conflicting work | Multiple members unknowingly work on the same task or have different understandings of responsibilities | Medium | Medium | Maintain clear task ownership, use GitHub Issues/Projects, and discuss progress and blockers during team meetings | TBD | Open |
+| R-14 | Project schedule falls behind planned milestones | Multiple tasks or milestones are not completed by their target dates | Medium | High | Review progress regularly, re-estimate remaining work, redistribute tasks, and defer lower-priority scope if necessary | TBD | Open |
+| R-15 | Completed functionality does not satisfy the original requirement | Testing or review shows that implementation does not meet its acceptance criteria | Medium | High | Maintain requirement-to-task traceability and verify completed features against their acceptance criteria before closing them | TBD | Open |
