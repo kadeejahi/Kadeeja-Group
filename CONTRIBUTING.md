@@ -1,10 +1,11 @@
 # Contributing
 
-This repository is intended to be used as a team engineering workspace.
+Our team uses GitHub to keep our work organized and make sure everyone
+knows what is being worked on.
 
 ## Working Agreement
 
-Teams should establish and document their own working agreement early in the project.
+Our team follows the working agreements documented in docs/team/working-agreements.md
 
 At minimum:
 
@@ -19,31 +20,24 @@ At minimum:
 
 ## Branches
 
-Use short, descriptive branch names, for example:
+Branch names should be short and clearly describe what is being worked on.
 
-- `feature/authentication`
-- `fix/session-timeout`
-- `docs/architecture-update`
-- `test/payment-edge-cases`
+Examples:
+
+- `feature/request-form`
+- `fix/request-status`
 
 ## Pull Requests
 
-Pull requests should explain:
+Every pull request must be reviewed and approved by at least two team
+members other than the person who created it.
 
-- what changed;
-- why the change was needed;
-- how it was verified;
-- what engineering evidence supports the change; and
-- any remaining risks or follow-up work.
 
 ## CI
 
-The starter repository does not provide project-specific CI.
-
-Teams are responsible for configuring meaningful automated build and test checks appropriate to their chosen technology before treating CI results as engineering evidence.
+So far, the team has agreed on Visual Studio Code. This is subject to change, as we haven't started the actual coding aspect yet.
 
 ## Engineering Evidence
 
-Repository artifacts should reflect actual engineering work.
-
-Do not create documentation, tests, issues, or workflow activity solely to satisfy an expected repository pattern. Evidence should be current, traceable, and useful to the team.
+Our GitHub activity should show real work being completed on CampusConnect.
+Issues, pull requests, tests, and documentation
