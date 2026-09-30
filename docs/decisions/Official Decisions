@@ -1,0 +1,46 @@
+# Cycle 1 
+# Pull Request Review Process
+
+**Status:** Accepted  
+**Date:** 2026-09-29  
+**Decision Owners:** Kadeeja Labaran, Team Lead
+
+## Context
+
+The team needed a consistent process for reviewing code before changes
+are added to the main branch. 
+
+The team wanted to reduce the risk of whats unreviewed.
+
+## Decision
+
+The team decided that every pull request must be reviewed and approved
+by at least one team member (preferrably 2) before it can be merged.
+
+## Alternatives Considered
+
+### Alternative 1: Allow direct commits
+
+We considered allowing members to commit changes directly without
+requiring another team member to review them.
+
+This was not selected because changes could be added without another
+team member checking the work first.
+
+## Consequences
+
+### Positive
+
+-Problems can be identified before changes reach the main branch.
+
+### Negative / Trade-Offs
+
+-Pull requests may take longer to merge while waiting for review.
+
+## Evidence
+
+- docs/planning/re-estimates
+
+## Revisit Conditions
+
+The team will reconsider this decision if the pull requests do not get approved in a reasonable time
