@@ -29,7 +29,7 @@ CampusConnect is a student support request and workflow management system design
   Designs the layout, user flows, and implements the frontend components in Python.
 * **Quality & Review Lead / Backup:** *[Camille, Sam]*  
   Manages the GitHub repository, sets up automated testing (pytest), and oversees deployment/distribution pipelines.
-* **Lead Operations & Evidence / Backup:** *[Edgar, Sam]*  
+* **Lead Operations & Evidence / Backup:** *[Edgar, Dean]*  
   Manages the GitHub repository, sets up automated testing (pytest), and oversees deployment/distribution pipelines.
 * **Recorder / Backup:** *[Sam, Edgar]*  
   Manages the GitHub repository, sets up automated testing (pytest), and oversees deployment/distribution pipelines.
