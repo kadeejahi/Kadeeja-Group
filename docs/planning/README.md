@@ -1,29 +1,12 @@
-# COMP 330/474 — Fall 2026 Repository Starter Kit
+**Student Support Request and Workflow Management System**
 
-Official course-specific repository starter kit for COMP 330/474 Software Engineering at Loyola University Chicago.
+**Course:** COMP 330 — Software Engineering
 
-This course starter kit is distinct from the general ETIS Engineering Platform Starter Kit; it is specifically designed to establish the team repository used for COMP 330/474 course work.
+**Cycle:** Cycle 1
 
-This repository establishes the engineering workspace and evidence structure your team will use throughout the semester.
+**Current Phase:** Planning and Estimation
 
-Your team GitHub repository becomes the authoritative engineering record for the project, including planning, requirements, architecture, implementation, testing, AI use and verification, reviews, release readiness, operations, and continuous improvement.
-
----
-
-## Student Team Setup — Required
-
-After establishing your team repository from this starter kit, **update this README to describe your project and team**.
-
-At a minimum:
-
-1. Replace the project title and description below with your team's project information.
-2. **Delete the sample team-member row** and add one row for each member of your team.
-3. Update the project status as the project progresses.
-4. Maintain the build, run, and test instructions as the system evolves.
-5. Keep this README current throughout the semester.
-
-The README is the **entry point to your engineering record**. It should help another engineer quickly understand the project and locate its evidence. It does not replace the authoritative engineering artifacts stored elsewhere in the repository.
-
+**Team:** TheCrazy6
 ---
 
 # CampusConnect
@@ -104,6 +87,9 @@ Update this section throughout the semester to reflect the current lifecycle sta
 
 > Cycle 1 — Project Launch
 
+> Current Phase: Planning and Estimation
+
+
 ---
 
 ## Team
@@ -124,17 +110,19 @@ This repository is the **authoritative engineering record** for the project.
 
 Engineering evidence is maintained throughout the repository, including:
 
-- **Requirements** → `docs/requirements/`
-- **Architecture** → `docs/architecture/`
-- **Planning and engineering decisions** → `docs/planning/`
-- **Testing and verification** → `docs/testing/`
-- **Security** → `docs/security/`
-- **Release evidence** → `docs/release/`
-- **Operations and observability** → `docs/operations/`
-- **Team evidence** → `docs/team/`
-- **Reviews** → `docs/reviews/`
+## Engineering Evidence
 
-Do not duplicate detailed engineering evidence in this README. Use this page to orient reviewers and point them to the authoritative artifacts.
+- [Requirements](docs/requirements/requirements.md)
+- [Acceptance Criteria](docs/requirements/acceptance-criteria.md)
+- [Cycle 1 Scope](docs/planning/scope.md)
+- [Planning Package](docs/planning/README.md)
+- [Task Plan](docs/planning/task-plan.md)
+- [Traceability](docs/planning/traceability.md)
+- [Estimates](docs/planning/estimates.md)
+- [Risk Register](docs/planning/risk-register.md)
+- [Schedule](docs/planning/schedule.md)
+- [Team Commitments](docs/planning/team-commitments.md)
+- [AI Use Log](docs/ai/ai-use-log.md)
 
 ---
 
