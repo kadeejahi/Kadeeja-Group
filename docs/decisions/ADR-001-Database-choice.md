@@ -15,21 +15,48 @@ that can be integrated with the Python backend during Cycle 1.
 
 ## What engineering problem or decision requires resolution?
 
-What constraints, requirements, risks, or forces influence the decision?
+The team needs to select a database for CampusConnect that can 
+reliably store and manage related application data, including users, 
+support requests, request categories, assignments, comments, request history, 
+and notifications. The database must support relationships between these records 
+and the application's request workflow while being compatible with the Python backend.
+
+The main constraints are that the database should be free to use, support relational data, 
+provide reliable transactions and data integrity, integrate with the Python backend, 
+and be practical to implement during Cycle 1. The team also wants a database that can 
+support the application as CampusConnect grows.
 
 ## Decision
 
-4/6 were in agreement.
+The team selected PostgreSQL as the primary database for CampusConnect.
+
+Four of the six team members were in agreement with the decision. PostgreSQL will be used to store and manage 
+the application's relational data, including users, support requests, assignments, comments, request history, 
+and notifications.
+
+PostgreSQL was selected because it is free and open source, supports relational data and reliable transactions, 
+integrates with the project's Python backend, and provides the capabilities needed for the CampusConnect request workflow. 
+The decision can be revisited if project requirements or technical constraints change.
 
 ## State the decision clearly enough that someone reviewing the repository later can understand what the team chose.
 
 Kadeeja and Camille view this change.
-Alternatives Considered
 
-SOLite 
+## Alternatives Considered
 
-Upon research it was leaning towards PostgresQL
+### SQLite
 
+SQLite was considered because it is free, lightweight, 
+and easy to integrate with a Python application. 
+However, PostgreSQL was preferred because CampusConnect 
+is designed as a multi-user support workflow system with 
+multiple related data entities and a need for reliable relational data management.
+
+### PostgreSQL
+
+PostgreSQL was selected because it is free and open source, 
+supports relational data and transactions, integrates with Python, 
+and provides room for CampusConnect to grow.
 
 ## Consequences
 
@@ -54,4 +81,7 @@ and scale as CampusConnect grows.
 Reconsider the PostgreSQL decision if project requirements change, 
 PostgreSQL cannot meet the team’s technical needs, the development or 
 deployment environment does not support PostgreSQL, or the team identifies 
-a free database solution that better fits the project.
+a free database solution that better fits the project. 
+
+#Updates
+- Last update. 10/05/2026; Dathal
