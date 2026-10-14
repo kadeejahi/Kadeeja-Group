@@ -113,15 +113,25 @@ Engineering evidence is maintained throughout the repository, including:
 ## Engineering Evidence
 
 [Requirements](../requirements/requirements.md)
+
 [Acceptance Criteria](../requirements/acceptance-criteria.md)
+
 [Cycle 1 Scope](scope.md)
+
 [Planning Package](README.md)
+
 [Task Plan](task-plan.md)
+
 [Traceability](traceability.md)
+
 [Estimates](estimates.md)
+
 [Risk Register](risk-register.md)
+
 [Schedule](schedule.md)
+
 [Team Commitments](team-commitments.md)
+
 [AI Use Log](../ai/ai-use-log.md)
 ---
 
