@@ -34,15 +34,15 @@ team's understanding of the work.
 | ID | Project Area | Low | Likely | High | Confidence | Major Dependencies |
 |---|---|---:|---:|---:|---|---|
 | E-01 | Student Request Submission | 4 hrs | 6 hrs | 10 hrs | High | Request requirements and data structure |
-| E-02 | Request Management | 5 hrs | 8 hrs | 12 hrs | Submitted request storage and reviewer access |
-| E-03 | Request Status Tracking | 3 hrs | 5 hrs | 8 hrs | Request storage and request management |
-| E-04 | Communication and Updates | 4 hrs | 7 hrs | 11 hrs | Request management and data storage |
-| E-05 | Resolution Tracking | 3 hrs | 5 hrs | 8 hrs | Request management and status tracking |
-| E-06 | Role-Based Access | 5 hrs | 8 hrs | 14 hrs | Defined student/reviewer roles and application structure |
-| E-07 | Request History | 4 hrs | 7 hrs | 12 hrs | Request storage, status tracking, and updates |
-| E-08 | Integration | 4 hrs | 7 hrs | 12 hrs | Completion of applicable feature areas |
-| E-09 | Testing and Defect Resolution | 5 hrs | 9 hrs | 15 hrs | Integrated application and acceptance criteria |
-| E-10 | Documentation and Final Review | 2 hrs | 4 hrs | 7 hrs | Completed implementation and testing evidence |
+| E-02 | Request Management | 5 hrs | 8 hrs | 12 hrs | Medium | Submitted request storage and reviewer access |
+| E-03 | Request Status Tracking | 3 hrs | 5 hrs | 8 hrs | High | Request storage and request management |
+| E-04 | Communication and Updates | 4 hrs | 7 hrs | 11 hrs | Medium | Request management and data storage |
+| E-05 | Resolution Tracking | 3 hrs | 5 hrs | 8 hrs | High | Request management and status tracking |
+| E-06 | Role-Based Access | 5 hrs | 8 hrs | 14 hrs | Low | Defined student/reviewer roles and application structure |
+| E-07 | Request History | 4 hrs | 7 hrs | 12 hrs | Medium | Request storage, status tracking, and updates |
+| E-08 | Integration | 4 hrs | 7 hrs | 12 hrs | Low | Completion of applicable feature areas |
+| E-09 | Testing and Defect Resolution | 5 hrs | 9 hrs | 15 hrs | Medium | Integrated application and acceptance criteria |
+| E-10 | Documentation and Final Review | 2 hrs | 4 hrs | 7 hrs | Hgh | Completed implementation and testing evidence |
 
 
 Estimates my change as development progresses.
