@@ -12,11 +12,11 @@ The goal is to ensure:
 
 | Data Class | Description | Primary Owner | Storage / Location | Retention Policy | Third-Party Exposure |
 |---|---|---|---|---|---|
-| Student Submissions & Requests | Raw support request text, descriptions, and inputs provided by students | TBD | PostgreSQL | Maintained per active request history and workflow requirements | None |
-| Student-Visible Updates | Progress updates, public comments, and status changes visible to the student | TBD | PostgreSQL | Maintained per request history requirements | None |
-| Internal Reviewer Notes | Confidential notes, triage, remarks, or administrative tags added by reviewers | TBD | PostgreSQL | Retained for audit and administrative traceability | Hidden from student access |
-| System Context & Workflow Rules | Status transition matrices, role definitions and business logic routing rules | TBD | Git Repository | Persistent Version Controlled | Internal Only |
-| Operational & Audit Logs | Application event logs, error traces, and access logs | TBD | Approved logging mechanism | Standard operational window | No Sensitive Data |
+| Student Submissions & Requests | Raw support request text, descriptions, and inputs provided by students | Sam | PostgreSQL | Maintained per active request history and workflow requirements | None |
+| Student-Visible Updates | Progress updates, public comments, and status changes visible to the student | Kadeeja | PostgreSQL | Maintained per request history requirements | None |
+| Internal Reviewer Notes | Confidential notes, triage, remarks, or administrative tags added by reviewers | Camille | PostgreSQL | Retained for audit and administrative traceability | Hidden from student access |
+| System Context & Workflow Rules | Status transition matrices, role definitions and business logic routing rules | Dathal | Git Repository | Persistent Version Controlled | Internal Only |
+| Operational & Audit Logs | Application event logs, error traces, and access logs | Edgar | Approved logging mechanism | Standard operational window | No Sensitive Data |
 
 ## Context Flow & Boundaries
 **Session and In-Memory Context:** Incorporate active user authentication tokens, current request states, and transient API payload data. Isolation of multi-tenant and multi-user isolation must be enforced at the API gateway and backend controller layer. Session context must never bleed across user boundaries.
