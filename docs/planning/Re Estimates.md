@@ -1,7 +1,7 @@
 # Uncertainity and Re estimates | What to do in these scenarios
 
 
-###What Uncertainity is highest:
+### What Uncertainity is highest
 
 **Project timeline estimates**
  ᯓ★-The exact amount of time needed for some tasks is uncertain because unexpected challenges may come during the making of our project.
