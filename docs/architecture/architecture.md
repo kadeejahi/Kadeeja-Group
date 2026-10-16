@@ -1,4 +1,4 @@
-# Architecture
+## Architecture
 
 ## Project Information
 Item	Team Response
@@ -7,7 +7,7 @@ Team number/team name	The Crazy 6
 Repository URL	https://github.com/kadeejahi/Kadeeja-Group
 Architecture owner	Dathal
 Backup owner	Kadeeja
-Last updated	2026-10-13
+Last updated	2026-10-15
 Cycle 1 / current release focus	Student support request submission, request management, status tracking, communication and updates, role-based access, and request history/visibility
 
 ## System Overview
@@ -51,6 +51,7 @@ Repositories / Data Access	Providing interfaces for reading and writing applicat
 PostgreSQL	Persisting application records and supporting relational data operations	Replacing application-level authorization and workflow enforcement	Database queries and records	Link to ADR-001 and database tests
 Logging / Error Handling	Recording relevant application events and errors while avoiding unnecessary sensitive data	Storing secrets or exposing private request contents through logs	Operational events and error information	Link to logging requirements and tests
 Evidence links must be added when the corresponding issues, pull requests, tests, or reviews exist. Planned evidence must not be represented as completed evidence.
+
 ## Interfaces, APIs, and Tool Boundaries
 CampusConnect components communicate through defined interfaces. The presentation layer sends user actions to the API/controllers. Application services coordinate the requested operations, business/workflow logic enforces permitted behavior, and repositories provide access to persistent data.
 Detailed API contracts should be maintained separately in /docs/architecture/api-contracts.md.
@@ -64,6 +65,7 @@ Internal Notes interface	Reviewer UI	API / Application Services	Creates and retr
 Data persistence interface	Application / Repository Layer	PostgreSQL	Stores and retrieves users, requests, assignments, comments, notes, notifications, and history	Validate data, protect credentials, and handle database failures
 Authentication / Authorization	Authentication and authorization component	Protected application services	Determines whether a user may perform a requested operation	Deny unauthorized actions by default
 Logging / Observability	Application components	Authorized development or operational reviewers	Records relevant events, failures, and diagnostic information	Avoid sensitive data exposure; restrict log access
+
 ## Dependency Boundaries
 * User interfaces communicate with the backend through defined application interfaces.
 * Application services coordinate use cases and call the appropriate workflow and data-access components.
@@ -72,6 +74,7 @@ Logging / Observability	Application components	Authorized development or operati
 * The database must not be accessed directly by user-interface components.
 * Authorization checks must be enforced on protected backend operations.
 * External integrations must be documented and approved before they are introduced into the system.
+
 ## Failure Behavior
 * Invalid request data must be rejected with an appropriate response.
 * Unauthorized operations must be denied.
@@ -169,6 +172,28 @@ AR-007	Notification behavior and delivery requirements may be incomplete	Medium	
 AR-008	AI-assisted engineering evidence may be incomplete	Medium	Contributors / Architecture owner	Maintain the AI-use log and verify relevant human review
 AR-009	Database connection or service failures may interrupt request processing	Medium	Backend owner	Define error handling and test failure scenarios
 AR-010	Architecture documentation may become inconsistent with implementation	Medium	Architecture owner / Contributors	Review documentation during relevant pull requests and architecture reviews
+
+## Forecast Problems
+
+This section identifies potential technical, security, workflow, and operational problems that CampusConnect may encounter during development and use. These problems are forecasts rather than confirmed defects. The team will use these forecasts to guide architecture decisions, implementation priorities, and testing.
+
+ID | Forecast Problem | Potential Impact | Prevention / Mitigation | 
+FP-001	Unauthorized access to student support requests | Exposure of private student information | Enforce authentication, request ownership checks, and role-based authorization on the backend. |
+FP-002	Students attempt to reopen resolved requests | Violations of the agreed request workflow	Prevent students from reopening resolved requests through server-side workflow rules. |
+FP-003	Duplicate support requests are submitted | Duplicate records and additional reviewer workload | Validate submissions and implement appropriate duplicate-processing protections. | 
+FP-004	Invalid or incomplete request information is submitted | Inaccurate records and processing errors | Validate required fields and input formats on both the client and server.|
+FP-005	Database or network failures | interrupt request processing |	Requests may fail to save or retrieve correctly | Implement error handling, transaction management, appropriate backups, and safe recovery procedures. |
+FP-006	Concurrent reviewer updates overwrite newer information | Lost updates and inconsistent request history | Evaluate transaction handling or optimistic locking and test concurrent updates. |
+FP-007	Internal reviewer notes become visible to students	 | Exposure of confidential internal information	Separate internal notes from student-visible comments and enforce server-side access controls.|
+FP-008	Request lists and dashboards become slow as data grows	Reduced usability and delayed request processing | Evaluate database indexing, pagination, and performance testing. |
+FP-009	Invalid status transitions occur | Requests enter incorrect or unauthorized workflow states | Define permitted state transitions and enforce them in backend business logic. |
+FP-010	Errors are not logged or communicated appropriately | Difficult troubleshooting and confusion for users | Log relevant failures safely and return clear error responses without exposing sensitive information. |
+
+- Validation and Review - 
+
+The development team should validate these forecasts through code reviews, automated tests, integration tests, and performance testing where appropriate. Mitigations must be verified before they are considered complete.
+
+The architecture owner will coordinate updates to this section as requirements, architecture decisions, and implementation evidence evolve. Forecasts should be revised when risks are addressed, new problems are identified, or the team’s understanding changes.
 
 ## Deferred Work and Operational Constraints
 * Detailed database schema and migration strategy must be documented as implementation progresses.
