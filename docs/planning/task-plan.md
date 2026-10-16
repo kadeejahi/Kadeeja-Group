@@ -44,7 +44,7 @@ The task plan will be updated throughout developement as task are completed, cha
 ## 4. Communication and Updates
 
 | ID | Task | Primary Owner | Backup Owner | Dependencies | Status | Completion Evidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | T-15 | Allow reviewer to add an update or note to a request | Kadeeja | Dean | T-07 | Not Started | Reviewer can save an update to a request |
 | T-16 | Store request updates with the correct request | Edgar | Dathal | T-15 | Not Started | Saved update can be retrieved with its request |
 | T-17 | Display applicable updates to the student | Edgar | Sam | T-16 | Not Started | Student can view updates associated with their request |
@@ -54,7 +54,7 @@ The task plan will be updated throughout developement as task are completed, cha
 ## 5. Resolution Tracking
 
 | ID | Task | Primary Owner | Backup Owner | Dependencies | Status | Completion Evidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | T-19 | Allow reviewer to record request resolution | Dathal | Kadeeja |  T-07 | Not Started | Resolution can be entered and saved |
 | T-20 | Associate resolution information with the correct request | Edgar | Sam | T-19 | Not Started | Resolution is retrieved with the correct request |
 | T-21 | Update request status when appropriate after resolution | Sam | Camille | T-12, T-19 | Not Started | Resolved request displays the expected status |
@@ -65,7 +65,7 @@ The task plan will be updated throughout developement as task are completed, cha
 ## 6. Role-Based Access
 
 | ID | Task | Primary Owner | Backup Owner | Dependencies | Status | Completion Evidence |
-|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | T-24 | Define student and reviewer permissions | Dean | Dathal | Requirements | Not Started | Role permissions are documented |
 | T-25 | Implement student access restrictions | Dathal | Camille | T-24 | Not Started | Student can access only permitted functionality |
 | T-26 | Implement reviewer access permissions | Kadeeja | Dean | T-24 | Not Started | Reviewer can access authorized management functionality |
