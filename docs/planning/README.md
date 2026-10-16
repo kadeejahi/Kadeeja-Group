@@ -98,7 +98,7 @@ The authoritative team roster, GitHub identities, specialized role
 ownership, backup responsibilities, and team acknowledgements are
 maintained in:
 
-[`docs/team/roles.md`](docs/team/roles.md)
+[`docs/team/roles.md`](../team/roles.md)
 
 Keep that record current throughout the semester.
 
@@ -112,17 +112,27 @@ Engineering evidence is maintained throughout the repository, including:
 
 ## Engineering Evidence
 
-- [Requirements](docs/requirements/requirements.md)
-- [Acceptance Criteria](docs/requirements/acceptance-criteria.md)
-- [Cycle 1 Scope](docs/planning/scope.md)
-- [Planning Package](docs/planning/README.md)
-- [Task Plan](docs/planning/task-plan.md)
-- [Traceability](docs/planning/traceability.md)
-- [Estimates](docs/planning/estimates.md)
-- [Risk Register](docs/planning/risk-register.md)
-- [Schedule](docs/planning/schedule.md)
-- [Team Commitments](docs/planning/team-commitments.md)
-- [AI Use Log](docs/ai/ai-use-log.md)
+[Requirements](../requirements/requirements.md)
+
+[Acceptance Criteria](../requirements/acceptance-criteria.md)
+
+[Cycle 1 Scope](scope.md)
+
+[Planning Package](README.md)
+
+[Task Plan](task-plan.md)
+
+[Traceability](traceability.md)
+
+[Estimates](estimates.md)
+
+[Risk Register](risk-register.md)
+
+[Schedule](schedule.md)
+
+[Team Commitments](team-commitments.md)
+
+[AI Use Log](../ai/ai-use-log.md)
 
 ---
 
