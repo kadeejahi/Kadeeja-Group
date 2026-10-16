@@ -2,9 +2,12 @@
 
 | Date       | Tool   | Purpose     | Artifact / Activity | Human Verification | Result / Action             |
 |------------|--------|-------------|---------------------|--------------------|-----------------------------|
-| 09/10/2026 | Gemini | Example Use | ai-policy.md        | Verified           | Recommendation Accepted. Added to "..." |
+| 09/10/2026 | Gemini | Example Use | ai-policy.md | Verified | Recommendation Accepted. Added to "..." |
 | 09/29/2026 | ChatGPT | Assignement 2 Planning & Repository Review | Cycle 1 Planning Artifacts | Verified | Used AI Assistance to identify gaps in the Assignment 2 planning package & propose revisions.  |
 | 09/29/2026 | ChatGPT | Review potential risk the team could face | risk-register.md | Verified | Used Ai to identify any risk ourt team might run into during planning |                                                                                                |
+| 10/15/2026 | ChatGPT | Formatting README, clarification of requirements | README | Verified | Formatted and clarified README info |
+| 10/15/2026 | ChatGPT | Conversion of a architecture image from paper to digital | architecture-diagram.png | Verified | Digitized architecture guide |
+| 10/15/2026 | ChatGPT | Help draft out the API contracts for A3 | api-contracts.md | Verified | AI was able to assist and accelerate drafting major components of the api contract |
 
 ## Expectations
 
