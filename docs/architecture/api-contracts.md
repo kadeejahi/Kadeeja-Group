@@ -7,7 +7,9 @@ The architecture describes a Python-based layered system:
 
 
 Student/Reviewer UI → API/Controllers → Application Services → Business/Workflow Logic → Repositories/Data Access → Database
-Authentication, authorization, validation, logging, and error handling apply across the relevant boundaries. These contracts are logical interfaces, not a commitment to HTTP endpoints or a specific Python web framework. If the team selects HTTP, it must add approved routes, methods, response schemas, and status codes. PostgreSQL is proposed, not yet approved.
+Authentication, authorization, validation, logging, and error handling apply across the relevant boundaries. 
+
+These contracts are logical interfaces, not a commitment to HTTP endpoints or a specific Python web framework. If the team selects HTTP, it must add approved routes, methods, response schemas, and status codes. PostgreSQL is proposed, not yet approved.
 
 ## Common contract rules
 
@@ -45,12 +47,19 @@ Authentication, authorization, validation, logging, and error handling apply acr
 ## 3. Security and Action Boundaries
 
 -[] Students can access only their own requests and permitted updates.
+
 -[] Reviewers can manage only requests they are authorized to access.
+
 -[] Internal reviewer notes must never appear in student-facing responses.
+
 -[] Backend services enforce authorization and workflow rules.
+
 -[] User interfaces cannot directly modify the database.
+
 -[] Invalid requests must not change application data.
+
 -[] Successful changes must be stored consistently and recorded in request history where required.
+
 -[] Errors must not expose passwords, credentials, or private student information.
 
 ## 4. Tool and External Service Boundaries 
@@ -81,10 +90,14 @@ Evidence should be linked to the relevant GitHub Issues, pull requests, or tests
 The team must confirm the following before finalizing affected contracts:
 
 -[] Approval of PostgreSQL as the database.
+
 -[] Reviewer permissions for reopening resolved requests.
+
 -[] Which request-history information students may view.
+
 -[] Whether notifications are included in Cycle 1.
--[] Final API operation names and request/response formats once the implementation approach is confirmed.
+
+[] Final API operation names and request/response formats once the implementation approach is confirmed.
 
 Review Status: Pending team approval.
 
