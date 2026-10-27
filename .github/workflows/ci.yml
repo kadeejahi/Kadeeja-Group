@@ -1,15 +1,56 @@
-name: CI - Not Yet Configured
+name: CampusConnect CI
 
 on:
+  push:
+    branches: [main]
+  
+  pull_request:
+    branches: [main]
+
   workflow_dispatch:
 
 jobs:
-  not-configured:
+  test:
+    name: Python Checks and Tests
     runs-on: ubuntu-latest
 
     steps:
-      - name: CI configuration required
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
         run: |
-          echo "::error::Project CI has not yet been configured."
-          echo "Replace this starter workflow with project-specific build and test checks before using CI as engineering evidence."
-          exit 1
+          python -m pip install --upgrade pip
+          
+          if [ -f requirements.txt ]; then 
+            pip install -r requirements.txt
+          fi
+
+          pip install pytest
+
+      - name: Check Python syntax
+        run: |
+          python_files=$(find . -type f -name "*.py" -not -path "./.git/*")
+
+          if [ -n "$python_files" ]; then
+            echo "$python_files" | while IFS= read -r file; do
+              python -m py_compile "$file"
+            done
+          else
+            echo "No Python files found. Syntax check skipped."
+          fi
+
+      - name: Run automated tests
+        run: |
+          if find tests -type f -name "test_*.py" -print -quit 2>/dev/null | grep -q .; then
+            python -m pytest tests/ -v
+          else
+            echo "No test files found. Skipping tests."
+            echo "Test must be added before CI can verify application functionality."
+          fi
+        
