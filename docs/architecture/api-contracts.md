@@ -50,6 +50,12 @@ These contracts are logical interfaces, not a commitment to HTTP endpoints or a 
 
 -[] Reviewers can manage only requests they are authorized to access.
 
+[] Authorized support reviewers may reopen resolved
+      requests according to approved workflow rules.
+
+[] All reopening actions must be recorded in
+      request history.
+
 -[] Internal reviewer notes must never appear in student-facing responses.
 
 -[] Backend services enforce authorization and workflow rules.
@@ -90,8 +96,6 @@ Evidence should be linked to the relevant GitHub Issues, pull requests, or tests
 The team must confirm the following before finalizing affected contracts:
 
 -[] Approval of PostgreSQL as the database.
-
--[] Reviewer permissions for reopening resolved requests.
 
 -[] Which request-history information students may view.
 
