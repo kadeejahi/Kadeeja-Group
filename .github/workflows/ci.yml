@@ -18,29 +18,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: SetPython
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          pyton-version: '3.11'
+          python-version: '3.11'
 
       - name: Install pytest
         run: |
-          python -m pip Install --upgrade pip
-          pip Install pytest
+          python -m pip install --upgrade pip
+          python -m pip install pytest
     
       - name: Verify Python Files exist
         run: |
           if ! find . -path './.git' -prune -o \
-          -type f -name "*.py" -print | -grep -q .; then
-          echo: "ERROR: No Python Files found."
+          -type f -name "*.py" -print | grep -q .; then
+          echo "ERROR: No Python Files found."
             exit 1
           fi
 
       - name: Verify Tests Exist
         run: |
           if [ ! -d "tests" ]; then
-          echo "ERROR: tests/ directory does not exist.
-           exit 1
+            echo "ERROR: tests/ directory does not exist."
+            exit 1
           fi
 
           python -m pytest --collect-only -q
