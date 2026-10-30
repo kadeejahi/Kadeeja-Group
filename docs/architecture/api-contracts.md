@@ -85,21 +85,21 @@ AI tools: CampusConnect does not currently include an approved runtime AI integr
 
 Evidence should be linked to the relevant GitHub Issues, pull requests, or tests once available. Planned tests are not considered completed evidence.
 
-## 6. Open Decisions
+## 6. Approved Decisions
 
 The team must confirm the following before finalizing affected contracts:
 
 -[] Approval of PostgreSQL as the database.
 
--[] Reviewer permissions for reopening resolved requests.
+-[] Regarding Reviewer permissions for reopening resolved requests, they cannot. They should just submit a completely new request, and specify previous issue.
 
--[] Which request-history information students may view.
+-[] Student should be able to review history of the question they had and the answer that solved it.
 
--[] Whether notifications are included in Cycle 1.
+-[] No notifications are included in Cycle 1.
 
-[] Final API operation names and request/response formats once the implementation approach is confirmed.
+[] Final API operation names and request/response formats will be confirmed once the implementation approach is finalized. Preliminary contracts will support Cycle 1 Functionality.
 
-Review Status: Pending team approval.
+Review Status: Team approved.
 
 Related Document: docs/architecture/architecture.md
 
