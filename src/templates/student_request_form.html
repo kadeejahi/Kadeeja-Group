@@ -1,0 +1,120 @@
+<!-- CampusConnect - Student Request Form HTML
+    (Task: T-01)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CampusConnect | Submit Request</title>
+ 
+    <!-- Includes any necessary CSS styles 
+        url_for('static', filename='style.css') is used to 
+        link to the static CSS file for styling the page.
+        -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- Main page layout: 
+     - sidebar contains navigation
+     - main content area contains student request form
+     -->
+
+    <div class="layout">
+
+        <!-- Navigation sidebar -->
+        <aside class="sidebar">
+            <h2>CampusConnect</h2>
+            <nav>
+                <!-- Current page: New Request -->
+                <a href="/" class="active">
+                    New Request
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main content: student request form -->
+        <main class="content">
+            <div class="card">
+                <h1>Submit a Support Request</h1>
+
+                <!-- Form uses POST to send info to the Flask application 
+                    Defined in student_request.py -->
+                <form method="POST">
+
+                    <!-- Intital demo categories -->
+                    <label for="category">
+                        Request Category
+                    </label>
+
+                    <select name="category"
+                            id="category" required>
+                        <option value="">
+                            Select a category
+                        </option>
+                        <option value="Academic">
+                            Academic
+                        </option>
+                        <option value="Housing">
+                            Housing
+                        </option>
+                        <option value="IT Support">
+                            IT Support
+                        </option>
+                        <option value="Other">
+                            Other
+                        </option>
+                    </select>
+
+                    <!-- Description: text input area for users to 
+                     provide details about their request.-->
+                    <label for="description">
+                        Description
+                    </label>
+
+                    <textarea name="description"
+                              id="description"
+                              rows="6"
+                              required
+                              placeholder="Describe your issue..."></textarea>
+
+                    <!-- Submit form to the Flask application -->
+                    <button type="submit">
+                        Submit Request
+                    </button>
+                </form>
+
+                <!-- Submission preview: 
+                 - flask passes the preview var to this page 
+                 - preview is displayed only after the form has been submitted 
+                 - confirms the python application recieved the info 
+                 - does not mean the request was saved to the database\
+                 -->
+                {% if preview %}
+                <div class="preview">
+                    <h3>Request Preview</h3>
+                    <p>
+                        Your information was received
+                        for demonstration purposes.
+                        It has not been saved.
+                    </p>
+                    <p>
+                        <strong>Category:</strong>
+                        {{ preview.category }}
+                    </p>
+                    <p>
+                        <strong>Description:</strong>
+                        {{ preview.description }}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+        </main>
+    </div>
+</body>
+</html>
