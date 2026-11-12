@@ -24,3 +24,30 @@
 | R-13 | Team communication problems lead to duplicated or conflicting work | Multiple members unknowingly work on the same task or have different understandings of responsibilities | Medium | Medium | Maintain clear task ownership, use GitHub Issues/Projects, and discuss progress and blockers during team meetings | Kadeeja Labaran | Monitoring |
 | R-14 | Project schedule falls behind planned milestones | Multiple tasks or milestones are not completed by their target dates | Medium | High | Review progress regularly, re-estimate remaining work, redistribute tasks, and defer lower-priority scope if necessary | Sam Stewart | Open |
 | R-15 | Completed functionality does not satisfy the original requirement | Testing or review shows that implementation does not meet its acceptance criteria | Medium | High | Maintain requirement-to-task traceability and verify completed features against their acceptance criteria before closing them | Kadeeja Labaran | Monitoring |
+
+
+## Release Decision Notes
+
+This section documents residual risks that may affect release decisions, including acceptance authority, supporting evidence, release limitations, and follow-up responsibilities.
+
+### (Template)  R-XX - [Risk Title]
+
+-**Residual Exposure:** [What risk remains after mitigation measures have been applied?]
+-**Acceptance Authority:** [Who is authorized to accept the remaining risk at release, and where is that authority documented?]
+-**Evidence Reviewed:** [What testing results, documentation, or review records support the release decision?]
+-**Release Treatment:** [Will the affected functionality be corrected, limited, deferred to Cycle 2, or released with an approved known limitation?]
+-**Cycle 2 Follow-Up Owner:** [Who is responsible for addressing any remaining issues during Cycle 2?]
+-**Reconsideration Trigger:** What event, failed test, or new finding would require the team to reconsider the release decision?]
+
+
+
+### R-15 — Requirement Compliance Risk
+
+- **Residual Exposure:** Completed functionality may not fully satisfy its original requirements or acceptance criteria, even after testing and review.
+- **Acceptance Authority:** Pending team confirmation. An authorized release approver must be identified before accepting the remaining risk.
+- **Evidence Reviewed:** Requirement traceability records, acceptance-test results, and relevant PR reviews. Specific evidence links are pending verification.
+- **Release Treatment:** Functionality that does not satisfy acceptance criteria must be corrected, limited, or deferred to Cycle 2. Any decision to release with a known limitation requires documented approval.
+- **Cycle 2 Follow-Up Owner:** Pending team assignment. Kadeeja Labaran remains the current risk owner.
+- **Reconsideration Trigger:** Failed acceptance tests, newly identified requirement gaps, or unresolved compliance concerns identified before release.
+
+

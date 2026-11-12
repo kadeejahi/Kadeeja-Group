@@ -86,6 +86,22 @@ Use this section to document completed test execution. A single entry may repres
 - **Outcome:** Passed / Failed / Blocked
 - **Supporting Evidence:** [CI run, logs, report, or other evidence]
 - **Follow-Up:** [Required action, or None]
+
+### TEST-CI-01 — CI Test Execution Verification
+
+- **Related Requirement / Finding:** PR #41 — CI may succeed without executing tests.
+- **Test File / Location:** .github/workflows/ci.yml
+- **Exeution Date:** November 10, 2026.
+- **Commit / PR:** Commit 107d398; PR #61.
+- **Environment / Preconditions:** GitHub Actions Ubuntu runner, Python 3.11 configured. No Python files detected in the checked-out repository.
+- **Command / Steps:** Pull request triggered CampusConnect CI. The workflow checked for Python files before attempting test collection and execution.
+- **Expected Result:** CI should fail when no Python files are found, preventing an incorrect successful workflow result.
+- **Actual Result:** The "Verify Python Files exist" step reported "ERROR: No Python Files found." The workflow exited with code 1 before reaching pytest collection or execution.
+- **Outcome:** Passed for the missing-Python-file safeguard; overall TEST-CI-01 remains Not Verified because test collection and execution have not been demonstrated.
+- **Supporting Evidence:** GitHub Actions Run #24, failed verification step and error log.
+- **Follow-Up:** Once Python application and test files are available, rerun CI to verify pytest collection, automated test execution, and correct reporting of test results.
+
+
 ---
 
 ## Review History
@@ -93,3 +109,6 @@ Use this section to document completed test execution. A single entry may repres
 | Date | Assignment / Cycle | Team Member | Update |
 |---|---|---|---|
 | 2026-10-29 | A4 / Cycle 1 | Camille | Established requirements-to-test coverage and initial CI review finding. |
+| 2026-11-10 | A5 / Cycle 1 | Dean | Added a TEST-CI-01 execution record documenting GitHub Actions Run #24, which confirmed that CI correctly failed when no Python files were detected. | 
+
+

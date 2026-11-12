@@ -19,10 +19,22 @@ This will be used to record the known limitations and what CampusConnect will no
 
 | ID | Concern | Why It Matters | Next Step |
 | --- | --- | --- | --- |
-| RR-01 | Request Submission | Students should be able to submit requests and save info correctly | Verify Submission and tests
-| RR-02 | Students must be able to see the correct status of their requests. | Test status updates and visibility. |
+| RR-01 | Request Submission | Students should be able to submit requests and save information correctly | Execute TEST-01 (REQ-001) to verify successful request submission and confirm the request is associated with the submitting student. Record the actual result and supporting evidence in test-evidence-tracker.md. | 
+| RR-02 | Request Status Visibility | Students must be able to see the correct status of their requests. | Verify request status updates and visibility through the relevant requirement tests. |
 | RR-03 | Integration and Testing | Different parts of the system must work together without errors. | Reveiw integration tests and Github Cl results. |
-| RR-04 | Important technical decisions must be confirmed and documented. | Review the latest approved architecture decisions. |
+| RR-04 | Architectural Decisions | Important technical decisions must be confirmed and documented. | Review the latest approved architecture decisions and supporting evidence. |
+
+
+### RR-01 — Request Submission Verification
+
+- **Related Requirement:** REQ-001 — Student Request Submission.
+- **Related Test:** TEST-01 — Submit a request with all required information.
+- **Expected Result:** The request is created and associated with the submitting student.
+- **Current Status:** Not Verified — application functionality remains under development.
+- **Required Evidence:** Executed test result, tester, execution date, tested commit, actual outcome, and supporting logs or screenshots.
+- **Release Condition:** RR-01 remains unresolved until TEST-01 has been executed and the expected behavior is verified with inspectable evidence.
+- **Follow-Up:** TEST-01 once request submission is implemented and update the test evidence tracker with the results.
+
 
  ## Release Readiness Confirmations
  
