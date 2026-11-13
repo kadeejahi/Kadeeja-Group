@@ -1,0 +1,123 @@
+/*
+CampusConnect - Student Request Form Styles
+(Task: T-01)
+
+This stylesheet provides the appearance of 
+the request submission page.
+
+This stylesheet was created using the CampusConnect presentation mockup as a reference.
+*/
+
+/* padding and borders within element widths */
+* {
+    box-sizing: border-box;
+}
+
+/* default font, background, and text color */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f5f6;
+    color: #2b2529;
+}
+
+/* position sidebar beside the main content area */
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* display project name and navigation links */
+.sidebar {
+    width: 240px;
+    background: #780026;
+    color: white;
+    padding: 30px 20px;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* style for navigation links inside sidebar */
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+/* highlight the page the user is currently veiwing */
+.sidebar a.active {
+    background: #a52b50;
+}
+
+/* add spacing between the sidebar and form */
+.content {
+    flex: 1;
+    padding: 50px;
+}
+
+/* display the form inside a white card */
+.card {
+    max-width: 720px;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #2b2529;
+    margin-top: 0;
+}
+
+/* place field labels above their inputs */
+label {
+    display: block;
+    margin: 22px 0 10px;
+    font-weight: bold;
+}
+
+/* consistent styling for text inputs and text areas */
+select,
+textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+/* allow users to expand description field vertically if needed */ 
+textarea {
+    resize: vertical;
+}
+
+/* submit button! */ 
+button {
+    margin-top: 22px;
+    padding: 14px 25px;
+    background: #780026;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* change button color when hovered over it */
+button:hover {
+    background: #a52b50;
+}
+
+/* display submitted form information for demo purposes */
+.preview {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8e9ee;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
