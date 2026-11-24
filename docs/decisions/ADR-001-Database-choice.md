@@ -240,3 +240,4 @@ The decision should be reviewed when the database implementation is first integr
 
 * 2026-10-05: Initial database decision discussion and documentation.
 * 2026-10-15: Expanded the decision rationale, alternatives, consequences, implementation implications, evidence requirements, and revisit conditions. Updated by Dathal.
+* 2026-11-24: Added a area for decisions with links and ensuring things are up to date.
